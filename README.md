@@ -1,7 +1,9 @@
-React Redux TodoList
-====================
+Mocha Chai Enzyme `mount` Demo
+==============================
 
-Enzyme `shallow()` demo with mocha.
+Enzyme `mount()` demo with mocha.
+
+It will interact with inner components.
 
 Run test:
 

@@ -2,7 +2,10 @@ import React from 'react';
 
 export default class Box extends React.Component {
   render() {
-    const {name} = this.props;
-    return <div>Box: {name}</div>
+    const {name, onDeleteFruit} = this.props;
+    return <div>
+      <span>Box: {name}</span>
+      <button title="delete" onClick={()=> onDeleteFruit(name)}>x</button>
+    </div>
   }
 }
